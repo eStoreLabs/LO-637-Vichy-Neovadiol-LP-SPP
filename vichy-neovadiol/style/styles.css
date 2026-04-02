@@ -16,8 +16,8 @@
 }
 
 #es-rc #es-rc-content .es-cross ::selection,
-#es-rc #es-rc-content .es-results ::selection {
-  background-color: #c62a1e;
+#es-rc #es-rc-content .es-specialist ::selection {
+  background-color: #684224;
   color: #ffffff;
 }
 
@@ -250,12 +250,22 @@
   text-decoration: none;
 }
 
+#es-rc #es-rc-content .es-results-rating__bg-wrapper {
+  background: #966c3d;
+  background: linear-gradient(
+    201deg,
+    rgba(150, 108, 61, 1) 0%,
+    rgba(208, 165, 104, 1) 100%
+  );
+}
+
 #es-rc #es-rc-content .es-results {
   background-repeat: no-repeat;
   background-size: 0;
   background-position: bottom;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
+  color: #ffffff;
 }
 
 #es-rc #es-rc-content .es-results__wrapper {
@@ -437,7 +447,7 @@
 
   #es-rc #es-rc-content .es-results {
     padding: 0 0 0 36px;
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: left;
     display: flex;
     align-items: center;
