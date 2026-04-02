@@ -203,7 +203,7 @@
 #es-rc #es-rc-content .es-formula {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 25px;
+  padding-block: 25px;
   background-position: right;
 }
 
@@ -211,17 +211,6 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-}
-
-#es-rc #es-rc-content .es-formula__content--new {
-  background-color: #000000;
-  display: inline-block;
-  margin-top: 35px;
-  margin-bottom: 0;
-  padding: 5px 10px;
-  font-weight: 700;
-  font-family: "Futura Demi", sans-serif;
-  font-size: 30px;
 }
 
 #es-rc #es-rc-content .es-formula__content--title {
@@ -236,17 +225,13 @@
   font-family: "Futura Book", sans-serif;
   font-size: 40px;
   text-wrap: balance;
+  margin-top: 20px;
+  text-transform: none;
 }
 
 #es-rc #es-rc-content .es-formula__content--text {
   font-family: "Futura Book", sans-serif;
   font-size: 28px;
-}
-
-#es-rc #es-rc-content .es-formula__content--disclaimer {
-  text-transform: none;
-  font-family: "Futura Book", sans-serif;
-  font-size: 14px;
 }
 
 #es-rc #es-rc-content .es-formula__content--link {
@@ -422,7 +407,7 @@
   }
 
   #es-rc #es-rc-content .es-formula {
-    background-position: unset;
+    background-position: center;
     background-size: cover;
   }
 
@@ -431,13 +416,6 @@
     position: relative;
     left: 50%;
     text-align: left;
-  }
-
-  #es-rc #es-rc-content .es-formula__content--new {
-    display: inline-block;
-    margin-top: 35px;
-    margin-bottom: 0;
-    padding: 5px 10px;
   }
 
   #es-rc #es-rc-content .es-formula__content--title {
