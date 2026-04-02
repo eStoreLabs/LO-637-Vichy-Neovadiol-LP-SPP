@@ -271,6 +271,14 @@
   margin-bottom: 10px;
   margin-top: 0;
   font-family: "Futura Book", sans-serif;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+#es-rc #es-rc-content .es-results__flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #es-rc #es-rc-content .es-results__percent {
@@ -440,8 +448,21 @@
     margin-right: -20%;
   }
 
-  #es-rc #es-rc-content .es-results__percent-wrapper {
+  #es-rc #es-rc-content .es-results__text {
+    margin-bottom: 0;
+  }
+
+  #es-rc #es-rc-content .es-results__flex-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
     margin-block: 48px;
+  }
+
+  #es-rc #es-rc-content .es-results__percent-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #es-rc #es-rc-content .es-results__img {
