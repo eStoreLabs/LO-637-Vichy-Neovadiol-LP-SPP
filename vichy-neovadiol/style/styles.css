@@ -70,7 +70,7 @@
 #es-rc #es-rc-content .es-kv__content-mobile {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 60%;
+  background-position: center;
   margin-bottom: 30px;
 }
 #es-rc #es-rc-content .es-kv__img-logo {
@@ -78,9 +78,37 @@
   padding-bottom: 10px;
 }
 
+#es-rc #es-rc-content .es-kv__content-mobile .es-kv__text__wrapper-top {
+  margin-top: 20px;
+}
+
+#es-rc #es-rc-content .es-kv__content-mobile .es-kv__text__wrapper-bottom {
+  margin-top: 80%;
+}
+
 #es-rc #es-rc-content .es-kv__content-mobile .es-kv__text {
   text-align: center;
+  text-wrap: balance;
   padding: 0 10px;
+}
+
+#es-rc #es-rc-content .es-kv__text-bold,
+#es-rc #es-rc-content .es-kv__text-smaller {
+  margin-block: 0;
+}
+
+#es-rc #es-rc-content .es-kv__text-smaller {
+  font-size: 35px;
+  font-family: "Futura Book", sans-serif;
+}
+
+#es-rc #es-rc-content .es-kv__text-normal {
+  font-size: 25px;
+}
+
+#es-rc #es-rc-content .es-kv__text-normal-smaller {
+  font-size: 25px;
+  font-family: "Futura Book", sans-serif;
 }
 
 #es-rc #es-rc-content .es-cross {
@@ -343,7 +371,7 @@
   #es-rc #es-rc-content .es-kv__text {
     position: absolute;
     bottom: 0;
-    left: 60px;
+    left: 32px;
   }
 
   #es-rc #es-rc-content .es-cross {
