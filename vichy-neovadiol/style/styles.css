@@ -213,6 +213,10 @@
   text-transform: uppercase;
 }
 
+#es-rc #es-rc-content .es-formula__content--img {
+  padding: 25px;
+}
+
 #es-rc #es-rc-content .es-formula__content--title {
   font-weight: 700;
   margin: 15px 0 0 0;
@@ -434,6 +438,10 @@
     position: relative;
     left: 50%;
     text-align: left;
+  }
+
+  #es-rc #es-rc-content .es-formula__content--img {
+    display: none;
   }
 
   #es-rc #es-rc-content .es-formula__content--title {
