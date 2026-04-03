@@ -446,6 +446,15 @@
   #es-rc #es-rc-content .es-rating__text {
     font-size: 14px;
   }
+  #es-rc #es-rc-content .es-specialist__headline {
+    font-size: 38px;
+  }
+  #es-rc #es-rc-content .es-specialist__text {
+    font-size: 30px;
+  }
+  #es-rc #es-rc-content .es-specialist__disclaimer {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 500px) {
   #es-rc #es-rc-content .es-kv__text {
