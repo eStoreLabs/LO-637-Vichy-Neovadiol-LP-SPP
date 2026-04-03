@@ -203,7 +203,7 @@
 #es-rc #es-rc-content .es-formula {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-block: 25px;
+  padding-bottom: 25px;
   background-position: right;
 }
 
@@ -211,10 +211,6 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-}
-
-#es-rc #es-rc-content .es-formula__content--img {
-  padding: 25px;
 }
 
 #es-rc #es-rc-content .es-formula__content--title {
@@ -254,12 +250,12 @@
   text-decoration: none;
 }
 
-#es-rc #es-rc-content .es-results-rating__bg-wrapper {
-  background: #966c3d;
+#es-rc #es-rc-content .es-formula-results-rating__bg-wrapper {
+  background: #684224;
   background: linear-gradient(
-    201deg,
-    rgba(150, 108, 61, 1) 0%,
-    rgba(208, 165, 104, 1) 100%
+    29deg,
+    rgba(104, 66, 36, 1) 0%,
+    rgba(208, 166, 105, 1) 100%
   );
 }
 
@@ -490,20 +486,30 @@
     font-size: 15px;
   }
 
+  #es-rc #es-rc-content .es-formula-results-rating__bg-wrapper {
+    background: #684224;
+    background: linear-gradient(
+      193deg,
+      rgba(104, 66, 36, 1) 0%,
+      rgba(208, 166, 105, 1) 100%
+    );
+  }
+
   #es-rc #es-rc-content .es-formula {
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    padding-bottom: 0;
   }
 
   #es-rc #es-rc-content .es-formula__content {
     width: 50%;
-    position: relative;
-    left: 50%;
     text-align: left;
+    margin-left: -5%;
+    padding: 32px;
   }
 
   #es-rc #es-rc-content .es-formula__content--img {
-    display: none;
+    width: 56%;
+    height: 100%;
   }
 
   #es-rc #es-rc-content .es-formula__content--title {
@@ -513,10 +519,11 @@
   #es-rc #es-rc-content .es-formula__content--link {
     padding: 8px 40px;
     margin-top: -3px;
+    margin-bottom: 0;
   }
 
   #es-rc #es-rc-content .es-results {
-    padding: 20px 0 0 32px;
+    padding: 0 0 0 32px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -546,7 +553,7 @@
   }
 
   #es-rc #es-rc-content .es-results__img {
-    width: 40%;
+    width: 44%;
   }
 
   #es-rc #es-rc-content .es-rating {
@@ -585,5 +592,10 @@
 
   #es-rc #es-rc-content .es-specialist__packshot {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #es-rc #es-rc-content .es-results__img {
+    width: 52%;
   }
 }
