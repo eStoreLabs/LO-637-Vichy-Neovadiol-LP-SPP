@@ -329,7 +329,7 @@
   margin-top: 0;
   font-family: "Futura Book", sans-serif;
   text-transform: uppercase;
-  text-wrap: balance;
+  text-align: left;
 }
 
 #es-rc #es-rc-content .es-rating__flex-wrapper {
@@ -349,7 +349,6 @@
   gap: 20px;
   padding: 32px;
   max-width: 305px;
-  min-height: 255px;
 }
 
 #es-rc #es-rc-content .es-rating__text {
@@ -441,6 +440,12 @@
   #es-rc #es-rc-content .es-results__text {
     font-size: 25px;
   }
+  #es-rc #es-rc-content .es-rating__title {
+    font-size: 35px;
+  }
+  #es-rc #es-rc-content .es-rating__text {
+    font-size: 14px;
+  }
 }
 @media screen and (min-width: 500px) {
   #es-rc #es-rc-content .es-kv__text {
@@ -459,6 +464,13 @@
   #es-rc #es-rc-content .es-kv__text__wrapper-bottom {
     color: #ffffff;
     padding-inline: unset;
+  }
+
+  #es-rc #es-rc-content .es-rating__flex-item {
+    min-width: 47%;
+    width: 50%;
+    min-height: 260px;
+    flex: 1 1 0;
   }
 }
 
@@ -636,7 +648,10 @@
   }
 
   #es-rc #es-rc-content .es-rating__flex-item {
-    flex: 1 1 0;
+    min-width: unset;
+    width: 24%;
+    max-width: 305px;
+    min-height: 255px;
     padding-inline: 15px;
   }
 
